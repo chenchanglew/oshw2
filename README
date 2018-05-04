@@ -1,0 +1,17 @@
+all files:
+	.gitignore
+	Makefile
+	README
+
+	arch/.gitignore
+	arch/x86/*
+
+	include/linux/*
+	
+	kernel/*
+	
+	os-project-2/*
+
+(We only need to keep track of these files' changes in OS projects.)
+(I use git to present file changes on Windows, edit the actual code and compile the whole kernel in VM.)
+(I use "share folders" skill in this project; both Windows and Ubuntu are able to see this repository.)
